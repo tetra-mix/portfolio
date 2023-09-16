@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule portfolio/(.*) portfolio/ [R,L]
