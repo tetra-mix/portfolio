@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.f7d1dfb8.js",
-    "static/media/torima.jpg": "/portfolio/static/media/torima.eefdef3216c388be4ae7.jpg",
-    "static/media/MAPUSHv1.jpg": "/portfolio/static/media/MAPUSHv1.03e6e4e905424e3c196f.jpg",
-    "static/media/23winter.png": "/portfolio/static/media/23winter.1774af3eadae28ca0cc6.png",
-    "static/media/mors.jpg": "/portfolio/static/media/mors.c3c4f7acca99f1194f35.jpg",
-    "static/media/intercom.jpg": "/portfolio/static/media/intercom.caf3e6a3616952d18e59.jpg",
-    "static/media/22summer.png": "/portfolio/static/media/22summer.1b68f92fa11e538142bd.png",
-    "static/media/morestem.jpg": "/portfolio/static/media/morestem.edd463b6a02d9682a17a.jpg",
-    "static/media/cranegame.jpg": "/portfolio/static/media/cranegame.28e9e977ea5d5181cbf2.jpg",
-    "static/media/MAPUSHv2.jpg": "/portfolio/static/media/MAPUSHv2.a4f31a7fa56ec8d791f2.jpg",
-    "static/media/iconme.jpg": "/portfolio/static/media/iconme.e81b758562a3e16faee1.jpg",
-    "static/media/iconB_CL.png": "/portfolio/static/media/iconB_CL.9d69efc1df5e2fb8a0b9.png",
-    "static/media/iconB_BW.png": "/portfolio/static/media/iconB_BW.2da3a79335d235998cd0.png",
-    "static/media/takamie.png": "/portfolio/static/media/takamie.848c13b63118e1925e47.png",
-    "static/media/amaliris.png": "/portfolio/static/media/amaliris.89658a5698650018b510.png",
-    "index.html": "/portfolio/index.html",
-    "main.f7d1dfb8.js.map": "/portfolio/static/js/main.f7d1dfb8.js.map"
+    "main.js": "./portfolio/static/js/main.ad0a853b.js",
+    "static/media/torima.jpg": "./portfolio/static/media/torima.eefdef3216c388be4ae7.jpg",
+    "static/media/MAPUSHv1.jpg": "./portfolio/static/media/MAPUSHv1.03e6e4e905424e3c196f.jpg",
+    "static/media/23winter.png": "./portfolio/static/media/23winter.1774af3eadae28ca0cc6.png",
+    "static/media/mors.jpg": "./portfolio/static/media/mors.c3c4f7acca99f1194f35.jpg",
+    "static/media/intercom.jpg": "./portfolio/static/media/intercom.caf3e6a3616952d18e59.jpg",
+    "static/media/22summer.png": "./portfolio/static/media/22summer.1b68f92fa11e538142bd.png",
+    "static/media/morestem.jpg": "./portfolio/static/media/morestem.edd463b6a02d9682a17a.jpg",
+    "static/media/cranegame.jpg": "./portfolio/static/media/cranegame.28e9e977ea5d5181cbf2.jpg",
+    "static/media/MAPUSHv2.jpg": "./portfolio/static/media/MAPUSHv2.a4f31a7fa56ec8d791f2.jpg",
+    "static/media/iconme.jpg": "./portfolio/static/media/iconme.e81b758562a3e16faee1.jpg",
+    "static/media/iconB_CL.png": "./portfolio/static/media/iconB_CL.9d69efc1df5e2fb8a0b9.png",
+    "static/media/iconB_BW.png": "./portfolio/static/media/iconB_BW.2da3a79335d235998cd0.png",
+    "static/media/takamie.png": "./portfolio/static/media/takamie.848c13b63118e1925e47.png",
+    "static/media/amaliris.png": "./portfolio/static/media/amaliris.89658a5698650018b510.png",
+    "index.html": "./portfolio/index.html",
+    "main.ad0a853b.js.map": "./portfolio/static/js/main.ad0a853b.js.map"
   },
   "entrypoints": [
-    "static/js/main.f7d1dfb8.js"
+    "static/js/main.ad0a853b.js"
   ]
 }
