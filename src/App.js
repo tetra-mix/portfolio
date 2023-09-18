@@ -10,13 +10,13 @@ import Form from "./routes/form";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="https://tetra-mix.github.io/portfolio">
       <Routes>
-        <Route path={'https://tetra-mix.github.io/portfolio/'} element={<About />} />
-        <Route path={'https://tetra-mix.github.io/portfolio/profile'} element={<Profile />} />
-        <Route path={'https://tetra-mix.github.io/portfolio/history'} element={<History />} />
-        <Route path={'https://tetra-mix.github.io/portfolio/links'} element={<Links />} />
-        <Route path={'https://tetra-mix.github.io/portfolio/form'} element={<Form />} />
+        <Route path={'/'} element={<About />} />
+        <Route path={'/profile'} element={<Profile />} />
+        <Route path={'/history'} element={<History />} />
+        <Route path={'/links'} element={<Links />} />
+        <Route path={'/form'} element={<Form />} />
       </Routes>
     </BrowserRouter>
   );

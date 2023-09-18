@@ -212,7 +212,7 @@ export default function About() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="#" className='links' underline='none' color="inherit">
+          <Link href="/" className='links' underline='none' color="inherit">
             <ListItem key='Twitter' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -222,7 +222,7 @@ export default function About() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="#" className='links' underline='none' color="inherit">
+          <Link href="/" className='links' underline='none' color="inherit">
             <ListItem key='Facebook' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
