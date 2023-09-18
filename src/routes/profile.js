@@ -133,7 +133,7 @@ export default function Profile() {
         </DrawerHeader>
         <Divider />
         <List>
-          <Link href="/" className='links' underline='none' color="inherit">
+          <Link href="/portfolio/" className='links' underline='none' color="inherit">
             <ListItem key='About' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -143,7 +143,7 @@ export default function Profile() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/profile" className='links' underline='none' color="inherit">
+          <Link href="/portfolio/profile" className='links' underline='none' color="inherit">
             <ListItem key='Profile' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -153,7 +153,7 @@ export default function Profile() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/history" className='links' underline='none' color="inherit">
+          <Link href="/portfolio/history" className='links' underline='none' color="inherit">
             <ListItem key='History' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -163,7 +163,7 @@ export default function Profile() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/links" className='links' underline='none' color="inherit">
+          <Link href="/portfolio/links" className='links' underline='none' color="inherit">
             <ListItem key='Links' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -173,7 +173,7 @@ export default function Profile() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/form" className='links' underline='none' color="inherit">
+          <Link href="/portfolio/form" className='links' underline='none' color="inherit">
             <ListItem key='Form' disablePadding>
               <ListItemButton>
                 <ListItemIcon>

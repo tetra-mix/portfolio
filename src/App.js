@@ -10,7 +10,7 @@ import Form from "./routes/form";
 
 const App = () => {
   return (
-    <BrowserRouter basename="https://tetra-mix.github.io/portfolio">
+    <BrowserRouter basename="/portfolio">
       <Routes>
         <Route path={'/'} element={<About />} />
         <Route path={'/profile'} element={<Profile />} />
