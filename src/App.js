@@ -1,4 +1,5 @@
 
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./routes/about";
 import Profile from "./routes/profile";
@@ -11,11 +12,11 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={'/'} element={<About />} />
-        <Route path={'/profile'} element={<Profile />} />
-        <Route path={'/history'} element={<History />} />
-        <Route path={'/links'} element={<Links />} />
-        <Route path={'/form'} element={<Form />} />
+        <Route path={'https://tetra-mix.github.io/portfolio/'} element={<About />} />
+        <Route path={'https://tetra-mix.github.io/portfolio/profile'} element={<Profile />} />
+        <Route path={'https://tetra-mix.github.io/portfolio/history'} element={<History />} />
+        <Route path={'https://tetra-mix.github.io/portfolio/links'} element={<Links />} />
+        <Route path={'https://tetra-mix.github.io/portfolio/form'} element={<Form />} />
       </Routes>
     </BrowserRouter>
   );
