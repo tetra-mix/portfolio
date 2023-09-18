@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.323e78e9.js",
+    "main.js": "/portfolio/static/js/main.465d8c74.js",
     "static/media/torima.jpg": "/portfolio/static/media/torima.eefdef3216c388be4ae7.jpg",
     "static/media/MAPUSHv1.jpg": "/portfolio/static/media/MAPUSHv1.03e6e4e905424e3c196f.jpg",
     "static/media/23winter.png": "/portfolio/static/media/23winter.1774af3eadae28ca0cc6.png",
@@ -16,9 +16,9 @@
     "static/media/takamie.png": "/portfolio/static/media/takamie.848c13b63118e1925e47.png",
     "static/media/amaliris.png": "/portfolio/static/media/amaliris.89658a5698650018b510.png",
     "index.html": "/portfolio/index.html",
-    "main.323e78e9.js.map": "/portfolio/static/js/main.323e78e9.js.map"
+    "main.465d8c74.js.map": "/portfolio/static/js/main.465d8c74.js.map"
   },
   "entrypoints": [
-    "static/js/main.323e78e9.js"
+    "static/js/main.465d8c74.js"
   ]
 }
