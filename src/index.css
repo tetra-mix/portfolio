@@ -1,0 +1,12 @@
+.links{
+    color: inherit;
+    text-decoration: none;
+}
+
+a{
+    color: #1976d2;
+    text-decoration: none;
+}
+a:hover{
+    color: #78bcff;
+}

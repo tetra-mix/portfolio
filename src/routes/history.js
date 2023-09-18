@@ -22,7 +22,7 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Grid from '@mui/material/Grid';
-import Link from '@mui/material/Link';
+import {Link} from 'react-router-dom';
 // Material Icons
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import InfoIcon from '@mui/icons-material/Info';
@@ -141,7 +141,7 @@ export default function History() {
         </DrawerHeader>
         <Divider />
         <List>
-          <Link href="/portfolio/" className='links' underline='none' color="inherit">
+          <Link to="/" className='links'>
             <ListItem key='About' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -151,7 +151,7 @@ export default function History() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/portfolio/profile" className='links' underline='none' color="inherit">
+          <Link to="/profile" className='links'>
             <ListItem key='Profile' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -161,7 +161,7 @@ export default function History() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/portfolio/history" className='links' underline='none' color="inherit">
+          <Link to="/history" className='links'>
             <ListItem key='History' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -171,7 +171,7 @@ export default function History() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/portfolio/links" className='links' underline='none' color="inherit">
+          <Link to="/links" className='links'>
             <ListItem key='Links' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -181,7 +181,7 @@ export default function History() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/portfolio/form" className='links' underline='none' color="inherit">
+          <Link to="/form" className='links'>
             <ListItem key='Form' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -194,7 +194,7 @@ export default function History() {
         </List>
         <Divider />
         <List>
-          <Link href="https://github.com/tetra-mix" className='links' underline='none' color="inherit">
+          <Link to="https://github.com/tetra-mix" className='links'>
             <ListItem key='Github' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -204,7 +204,7 @@ export default function History() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="https://www.youtube.com/channel/UCFQP9nTz3g1fsYK1KQw9M8A" className='links' underline='none' color="inherit">
+          <Link to="https://www.youtube.com/channel/UCFQP9nTz3g1fsYK1KQw9M8A" className='links'>
             <ListItem key='YouTube' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -214,7 +214,7 @@ export default function History() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="#" className='links' underline='none' color="inherit">
+          <Link to="#" className='links'>
             <ListItem key='Twitter' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -224,7 +224,7 @@ export default function History() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="#" className='links' underline='none' color="inherit">
+          <Link to="#" className='links'>
             <ListItem key='Facebook' disablePadding>
               <ListItemButton>
                 <ListItemIcon>

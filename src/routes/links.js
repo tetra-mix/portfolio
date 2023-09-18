@@ -18,7 +18,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Stack from '@mui/material/Stack';
 import Item from '@mui/material/ListItem';
-import Link from '@mui/material/Link';
+import {Link} from 'react-router-dom';
 // Material Icons
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import InfoIcon from '@mui/icons-material/Info';
@@ -129,7 +129,7 @@ export default function Links() {
         </DrawerHeader>
         <Divider />
         <List>
-          <Link href="/portfolio/" className='links' underline='none' color="inherit">
+          <Link to="/" className='links'>
             <ListItem key='About' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -139,7 +139,7 @@ export default function Links() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/portfolio/profile" className='links' underline='none' color="inherit">
+          <Link to="/profile" className='links'>
             <ListItem key='Profile' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -149,7 +149,7 @@ export default function Links() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/portfolio/history" className='links' underline='none' color="inherit">
+          <Link to="/history" className='links'>
             <ListItem key='History' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -159,7 +159,7 @@ export default function Links() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/portfolio/links" className='links' underline='none' color="inherit">
+          <Link to="/links" className='links'>
             <ListItem key='Links' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -169,7 +169,7 @@ export default function Links() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/portfolio/form" className='links' underline='none' color="inherit">
+          <Link to="/form" className='links'>
             <ListItem key='Form' disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -182,7 +182,7 @@ export default function Links() {
         </List>
         <Divider />
         <List>
-          <Link href="https://github.com/tetra-mix" className='links' underline='none' color="inherit">
+          <Link to="https://github.com/tetra-mix" className='links'>
             <ListItem key='Github' disablePadding>
             <ListItemButton>
                 <ListItemIcon>
@@ -192,7 +192,7 @@ export default function Links() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="https://www.youtube.com/channel/UCFQP9nTz3g1fsYK1KQw9M8A" className='links' underline='none' color="inherit">
+          <Link to="https://www.youtube.com/channel/UCFQP9nTz3g1fsYK1KQw9M8A" className='links'>
             <ListItem key='YouTube' disablePadding>
             <ListItemButton>
                 <ListItemIcon>
@@ -202,7 +202,7 @@ export default function Links() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="#" className='links' underline='none' color="inherit">
+          <Link to="#" className='links'>
             <ListItem key='Twitter' disablePadding>
             <ListItemButton>
                 <ListItemIcon>
@@ -212,7 +212,7 @@ export default function Links() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="#" className='links' underline='none' color="inherit">
+          <Link to="#" className='links'>
             <ListItem key='Facebook' disablePadding>
             <ListItemButton>
                 <ListItemIcon>
@@ -241,14 +241,14 @@ export default function Links() {
           <Stack spacing={4}>
             <Stack>
               <Item>第23回全国中学高校Webコンテスト 銀賞/ベストドメインネーミング賞 「Nipponのお米を食べよう」</Item>
-              <Item><Link href="https://contest.japias.jp/tqj23/230240C/">URL:https://contest.japias.jp/tqj23/230240C/</Link></Item>
+              <Item><Link to="https://contest.japias.jp/tqj23/230240C/">URL:https://contest.japias.jp/tqj23/230240C/</Link></Item>
             </Stack>
             <Stack>
               <Item>第24回全国中学高校Webコンテスト トップ50 「知ろう・守ろう・考えよう地球温暖化」</Item>
             </Stack>
             <Stack>
               <Item>第25回全国中学高校Webコンテスト 金賞 「Let's 茶茶茶 ~お茶を知る・飲む・考える~」</Item>
-              <Item><Link href="https://contest.japias.jp/tqj25/250040C/">URL:https://contest.japias.jp/tqj25/250040C/</Link></Item>
+              <Item><Link to="https://contest.japias.jp/tqj25/250040C/">URL:https://contest.japias.jp/tqj25/250040C/</Link></Item>
             </Stack>
           </Stack>
 
@@ -258,11 +258,11 @@ export default function Links() {
           <Stack spacing={4}>
             <Stack>
               <Item>ライフイズテックレッスンコンテスト 2022年 夏 SDGs問題解決部門 特別賞 「日本の森林」</Item>
-              <Item><Link href="https://amphiprion.sakura.ne.jp/contest/22summer/index.html">URL:https://amphiprion.sakura.ne.jp/contest/22summer/index.html</Link></Item>
+              <Item><Link to="https://amphiprion.sakura.ne.jp/contest/22summer/index.html">URL:https://amphiprion.sakura.ne.jp/contest/22summer/index.html</Link></Item>
             </Stack>
             <Stack>
               <Item>ライフイズテックレッスンコンテスト 2023年 冬 身の回りの問題解決部門 優秀賞 「有限会社 front ONE」</Item>
-              <Item><Link href="https://frontone.clowntetra.jp/index.html">URL:https://frontone.clowntetra.jp/index.html</Link></Item>
+              <Item><Link to="https://frontone.clowntetra.jp/index.html">URL:https://frontone.clowntetra.jp/index.html</Link></Item>
             </Stack>
           </Stack>
 
@@ -272,15 +272,15 @@ export default function Links() {
           <Stack spacing={4}>
             <Stack>
               <Item>アマリリス連合王国</Item>
-              <Item><Link href="https://amaliris.clowntetra.jp/">URL:https://amaliris.clowntetra.jp/</Link></Item>
+              <Item><Link to="https://amaliris.clowntetra.jp/">URL:https://amaliris.clowntetra.jp/</Link></Item>
             </Stack>
             <Stack>
               <Item>よし、高みへ</Item>
-              <Item><Link href="https://takamie.clowntetra.jp/">URL:https://takamie.clowntetra.jp/</Link></Item>
+              <Item><Link to="https://takamie.clowntetra.jp/">URL:https://takamie.clowntetra.jp/</Link></Item>
             </Stack>
             <Stack>
               <Item>ブログ</Item>
-              <Item><Link href="https://clowntetra.jp/">URL:https://clowntetra.jp/</Link></Item>
+              <Item><Link to="https://clowntetra.jp/">URL:https://clowntetra.jp/</Link></Item>
             </Stack>
           </Stack>
         </Box>
