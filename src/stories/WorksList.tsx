@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Work, WorkProps } from './Work';
+import { HStack } from '@yamada-ui/react';
 
 export const WorksList = () => {
     const [posts, setPosts] = useState<WorkProps[]>([]);
@@ -19,10 +20,10 @@ export const WorksList = () => {
     }, []);
 
     return (
-        <>
+        <HStack >
             {posts.map(post => (
                 <Work title={post.title} subtitle={post.subtitle} body={post.body} image={post.image} link={post.link} />
             ))}
-        </>
+        </HStack>
     );
 }

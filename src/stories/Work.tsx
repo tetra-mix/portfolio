@@ -17,10 +17,10 @@ export type WorkProps = {
 export const Work = (props: WorkProps) => {
     return (
         <UIProvider>
-            <Card variant="outline" w="30%" >
+            <Card variant="outline" w="30%" m="2" h="500px" >
                 <CardHeader>
                     <Center>
-                        <Image src={props.image.url} alt={props.title} w="100%"/>
+                        <Image src={props.image.url} alt={props.title} w="100%" h="200px"/>
                     </Center>
                 </CardHeader>
                 <CardBody>
