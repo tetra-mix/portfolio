@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './Header';
 import { Footer } from './Footer';
-export const Page: React.FC = () => {
+export const Home: React.FC = () => {
 
   return (
     <>
