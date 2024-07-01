@@ -10,5 +10,15 @@ const preview: Preview = {
     },
   },
 };
+/*
+const witchUIProvider = (Story, context) => {
+  return (
+    <UIProvider>
+      <Story {...context} />
+    </UIProvider>
+  );
+};
+export default decorators = []
+*/
 
 export default preview;
