@@ -1,4 +1,4 @@
-import { Header } from './stories/Header';
+import { Header } from './stories/components/Header';
 function App() {
 
   return (
